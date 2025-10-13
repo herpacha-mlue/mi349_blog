@@ -1,0 +1,238 @@
+
+
+* { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7; 
+    color: #333;
+    background-color: #f4f7f9; 
+    padding-top: 70px; 
+}
+
+h1, h2, h3 { 
+    font-family: 'Georgia', serif;
+    color: #cc5500; /* Burnt Orange Color */
+    margin-top: 1.5em; 
+    margin-bottom: 0.5em;
+}
+
+header h1 { 
+    color: #000;
+    font-size: 2.8em; 
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center; 
+}
+
+p { 
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+a { 
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+
+
+#main-wrapper { 
+    max-width: 1200px;
+    margin: 20px auto; 
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 80vh;
+}
+
+.main-content-area {
+    padding: 40px; 
+    line-height: 1.8; 
+}
+
+nav { 
+    background-color: #2c3e50;
+    width: 100%;
+}
+
+.sticky-header { 
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul { 
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li { 
+    display: inline-block;
+}
+
+.nav-link { 
+    display: block;
+    padding: 18px 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover { 
+    background-color: #34495e;
+}
+
+.post-meta { 
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post-container {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+
+
+figure { 
+    max-width: 600px; 
+    margin: 30px auto; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    display: block; 
+}
+
+figure img[alt] { 
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 3px;
+}
+
+.img-caption { 
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 5px 0;
+}
+
+
+
+.recipe-tracker { 
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.recipe-tracker th, 
+.recipe-tracker td { 
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.recipe-tracker thead th { 
+    background-color: #34495e;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.newsletter-form { 
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    max-width: 600px; 
+    margin-top: 15px;
+}
+
+.newsletter-form input[type="email"] { /* 25. Email input sizing */
+    flex-grow: 1; 
+    min-width: 150px; 
+    padding: 10px;
+}
+
+.button-primary { 
+    background-color: #e74c3c; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover { 
+    background-color: #c0392b; 
+}
+
+
+.closing-note { 
+    font-weight: bold; 
+    color: #000;      
+    font-size: 1.1em; 
+
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    text-align: center; 
+}
+
+footer { 
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    clear: both; 
+}
+
+/* 32. Contact Form Layout Spacing */
+.contact-form-layout div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+}
+
+
+.contact-form-layout input[type="text"],
+.contact-form-layout input[type="email"],
+.contact-form-layout textarea,
+.contact-form-layout select {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block; 
+    box-sizing: border-box; 
+}
+
+
+.contact-form-layout button[type="submit"] {
+    display: block;
+    margin: 20px 0;
+}

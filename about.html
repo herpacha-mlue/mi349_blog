@@ -3,50 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sweet Desserts | About</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
         <h1>Sweet Desserts</h1>
-        <nav>
+    </header>
+        <nav class="sticky-header">
             <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    <div id="main-wrapper"> 
 
-    <main>
-        <article>
-            <h2>Meet the Aspiring Baker!</h2>
-            <figure>
-                <img src="baker_image.jpg" alt="A photo of blog author smiling">
-            </figure>
+        <main class="main-content-area">
+            <article class="post-container">
+                <header>
+                    <h2 class="heading-accent">Meet the Aspiring Baker!</h2> 
+                </header>
 
-            <p>Welcome to Sweet Desserts! My name is Pacha Her, and I've started my baking adventures since last August of 2024. My journey began with a simple craving for something beyond the typical store-bought sweets. Now, I find myself diving deep into recipes, techniques, and the science of what makes a perfect rise or a velvety cream. My current baking obsessions include complex tiramisu layers, the delicate balance of matcha desserts, and anything related to pumpkin spice in the fall. </p>
+                <section>
+                    <figure>
+                        <img src="baker_image.jpg" alt="A photo of blog author smiling">
+                        <figcaption class="img-caption">Pacha Her, the aspiring baker.</figcaption>
+                    </figure>
 
-            <p>When I'm not dusting flour off my clothes, I'm usually engaged in a few other favorite hobbies. This site will occasionally stray from baking to talk about my other interests, which include hunting down awesome drink recipes wheter it's smoothies, lattes, or mocktails, or slowly transforming my living space with home DIY projects to match my favorite cozy-chic aesthetic. My ultimate goal for my home is to create a space that feels like a permanent, warm embrace, and if there's enough interest I'll be sharing a few mood boards soon!</p>
+                    <p>Welcome to Sweet Desserts! My name is Pacha Her, and I've started my baking adventures since last August of 2024. My journey began with a simple craving for something beyond the typical store-bought sweets. Now, I find myself diving deep into recipes, techniques, and the science of what makes a perfect rise or a velvety cream. My current baking obsessions include complex tiramisu layers, the delicate balance of matcha desserts, and anything related to pumpkin spice in the fall. </p>
 
-            <h3>Current Favorite Desserts/Drinks</h3>
-            <ul>
-                <li>Pumpkin Spice Latte with Soy milk</li>
-                <li>Pumpkin Carrot Cake</li>
-                <li>Carmel Chai cheesecake</li>
-            </ul>
+                    <p>When I'm not dusting flour off my clothes, I'm usually engaged in a few other favorite hobbies. This site will occasionally stray from baking to talk about my other interests, which include hunting down awesome drink recipes wheter it's smoothies, lattes, or mocktails, or slowly transforming my living space with home DIY projects to match my favorite cozy-chic aesthetic. My ultimate goal for my home is to create a space that feels like a permanent, warm embrace, and if there's enough interest I'll be sharing a few mood boards soon!</p>
 
-            <h3>Home Aesthetic Goals</h3>
-            <ol>
-                <li>Warm, Moody, & Earthy tones </li>
-                <li>Traditional, Classic, Cottage vibes</li>
-                <li>Brass Hardware</li>
-            </ol>
+                    <h3 class="heading-accent">Current Favorite Desserts/Drinks</h3>
+                    <ul>
+                        <li>Pumpkin Spice Latte with Soy milk</li>
+                        <li>Pumpkin Carrot Cake</li>
+                        <li>Carmel Chai cheesecake</li>
+                    </ul>
 
-            <p>Thanks for stopping by! I hope you find some inspiration, comfort, and perhaps a new recipe to try here.</p>
+                    <h3 class="heading-accent">Home Aesthetic Goals</h3>
+                    <ul>
+                        <li>Warm, Moody, & Earthy tones </li>
+                        <li>Traditional, Classic, Cottage vibes</li>
+                        <li>Brass Hardware</li>
+                    </ul>
 
-        </article>
-    </main>
-
+                    <div class="closing-note">
+                        <p>Thanks for stopping by! I hope you find some inspiration, comfort, and perhaps a new recipe to try here.</p>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
     <footer>
         <p>&copy; <time datetime="2025">2025</time> Sweet Desserts</p>
     </footer>
