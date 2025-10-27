@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 header h1 { 
-    color: #000;
+    color: #e8e5e5;
     font-size: 2.8em; 
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
@@ -145,7 +145,7 @@ figure img[alt] {
 
 .recipe-tracker thead th { 
     background-color: #34495e;
-    color: #ffffff;
+    color: #e6e5e5;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: none;
@@ -232,66 +232,86 @@ footer {
 /* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
 
 @media screen and (max-width: 616px) {
-  header {
-    background: #f4f7f9;
-    display: block;
-    padding: 0;
-  }
+    body { 
+        font-size: 100%; 
+        padding-top: 5px; 
+    }
+    .main-content-area {
+        padding: 20px 15px;
+    }
 
-  header ul li {
-    display: block;
-    border-top: 1px solid #1c2c41;
-  }
+    header {
+        background: #c2dff3;
+        color: #ecebe8;
+        display: block;
+        padding: 0;
+    }
 
-  header h1 {
-    padding: 20px;
-  }
+    header ul li {
+        display: block;
+        border-top: 1px solid #2c3e50;
+    }
 
+    header h1 {
+        padding: 20px;
+    }
 
+    #main-wrapper { 
+        max-width: 100%; 
+        margin: 0;
+        box-shadow: none;
+    }
 
-  #main-wrapper { 
-    max-width: 100%; 
-    margin: 0;
-    box-shadow: none;
-  }
-
-  img { 
-    width: 100%; 
-    height: auto;
-  }
+    img { 
+        width: 100%; 
+        height: auto;
+    }
     
-  .newsletter-form { 
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-  }
+    .newsletter-form { 
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    .recipe-tracker {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .nav-link {
+        padding: 15px 10px;
+        font-size: 1.1em;
+    }
+    h1, h2, h3 { 
+        margin-top: 1em;    
+        margin-bottom: 0.5em; 
+    }
 }
 
 @media screen and (min-width: 576px) {
-  header {
-    background: #F9DC5C;
-    color: #011936;
-  }
+    header {
+        background: #f1d141;
+        color: #fefdfa;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  header {
-    background: #3e5d48;
-    color:#eee
-  }
+    header {
+        background: #3e5d48;
+        color:#eee
+    }
 }
 
  @media screen and (min-width: 992px) {
-  header {
-    background: #011936;
-    color: #e0caad;
-  } 
+    header {
+        background: #011936;
+        color: #e0caad;
+    } 
 } 
 
 @media screen and (min-width: 1200px) {
-  header {
-    background: #465362;
-    color: #f7f0dc
-  }
+    header {
+        background: #2c3e50;
+        color: #f7f0dc
+    }
 }
 
